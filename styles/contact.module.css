@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem;
+    min-height: 50vh;
+}
+
+.form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form input {
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.alert {
+    color: green;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.submit button {
+    font-size: 15px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.submit button:hover {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #22a2f8;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
