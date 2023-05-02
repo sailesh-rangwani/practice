@@ -9,7 +9,7 @@
 
 .form {
     display: block;
-    justify-content: center;
+    justify-content: flex-start; /* change from center to flex-start */
     align-items: center;
     margin-bottom: 10px;
     font-size: 18px;
@@ -19,6 +19,12 @@
     display: block;
     font-size: 18px;
     border-radius: 5px;
+    margin: auto;
+}
+
+.form label {
+    position: relative;
+    margin: auto;
 }
 
 .alert {
